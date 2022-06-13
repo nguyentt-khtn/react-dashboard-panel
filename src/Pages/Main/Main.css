@@ -1,0 +1,8 @@
+.main{
+    height: 97%;
+    display: grid;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: var(--glass);
+    grid-template-columns: 10rem auto 20rem;
+}
