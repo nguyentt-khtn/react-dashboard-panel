@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 100%;
     padding: 0.5rem;
     margin: 0 0.5rem;
     border-radius: 1rem;
@@ -52,4 +50,23 @@
 .col-2>:nth-child(3){
     font-size: 0.75rem;
     font-weight: 400;
+}
+
+.expanded-card {
+    position: absolute;
+    z-index: 9;
+    width: 55%;
+    height: 70%;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.expanded-card .chart {
+    width: 75%;
 }
