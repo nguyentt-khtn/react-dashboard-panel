@@ -6,9 +6,9 @@ import './MainDash.css'
 export default function MainDash() {
     return (
         <div className='main-dash'>
-            <h3>Dashboard</h3>
+            <div className='main-title'>Dashboard</div>
             <Cards />
-            <h3>Recent Orders</h3>
+            <div className='main-title'>Recent Orders</div>
             <Table />
         </div>
     )

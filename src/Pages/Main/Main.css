@@ -5,4 +5,18 @@
     border-radius: 2rem;
     background-color: var(--glass);
     grid-template-columns: 10rem auto 20rem;
+    overflow-x: hidden;
+}
+@media screen and (max-width: 1200px) {
+    .main {
+        overflow-y: scroll;
+        grid-template-columns: 15% auto 25%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main {
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
 }

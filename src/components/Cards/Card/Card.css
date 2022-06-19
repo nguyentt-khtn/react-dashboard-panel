@@ -6,7 +6,7 @@
     margin: 0 0.5rem;
     border-radius: 1rem;
     color: white;
-    gap:1rem;
+    gap:0.5rem;
 }
 .card:hover{
     box-shadow: none !important;
@@ -65,8 +65,49 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
+    margin-top: 10%;
 }
 .expanded-card .chart {
     width: 75%;
+}
+@media screen and (max-width:1200px) {
+    .card{
+        margin: 0 0.25rem;
+    }
+    .expanded-card {
+        width: 60%;
+        height: 60%;
+    }
+    .expanded-card .chart {
+        width: 90%;
+    }
+    .col-1{
+        width: 30%;
+    }
+    .col-1 .title{
+        font-size: 0.75rem;
+    }
+    .col-2>:nth-child(1){
+        font-size: 1rem;
+    }
+    .col-2>:nth-child(2){
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .col-2>:nth-child(3){
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width:768px) {
+    .card{
+        margin-bottom: 1rem;
+    }
+    .expanded-card {
+        width: 70%;
+        height: 40%;
+    }
+    .expanded-card .chart {
+        width: 100%;
+    }
 }

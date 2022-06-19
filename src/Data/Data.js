@@ -1,3 +1,6 @@
+import img1 from '../assets/images/img1.jpg'
+import img2 from '../assets/images/img2.jpg'
+import img3 from '../assets/images/img3.jpg'
 export const Data = [
     {
         icon: <i className="fas fa-home"></i>,
@@ -72,5 +75,25 @@ export const CardData = [
             }
         ],
 
+    },
+]
+export const RightSide = [
+    {
+        img: img1,
+        name: 'Andrew Thomas',
+        noti: 'has ordered Apple smart 2500mh battery.',
+        time:'25 second ago',
+    },
+    {
+        img: img2,
+        name: 'James Bond',
+        noti: 'has ordered Samsung gadget for charging battery.',
+        time:'30 minutes ago',
+    },
+    {
+        img: img3,
+        name: 'Bat Man',
+        noti: 'has ordered Apple smart watch, samsung Gear 2500mh battery',
+        time:'2 hours ago',
     },
 ]

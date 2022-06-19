@@ -5,3 +5,11 @@
     flex-direction: row;
     width: 100%;
 }
+@media screen and (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

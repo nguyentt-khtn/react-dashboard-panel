@@ -1,0 +1,50 @@
+.updates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 1rem;
+    width: 90%;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.updates .card-update {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+.updates .card-update .img {
+    width: 40%;
+}
+.updates .card-update .text {
+    width: 70%;  
+}
+.updates .card-update .img img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width: 1200px){
+    .updates .card-update .img {
+        width: 20%;
+    }
+    .updates .card-update .img img {
+        width: 50px;
+        height: 50px;
+    }
+    .updates .card-update .text div{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px){
+    .updates {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
